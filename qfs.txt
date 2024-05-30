@@ -5,6 +5,7 @@ A:=2; -- A+1 is the number of variables
 Sup:=100;-- compute In for n \leq Sup+1
 S := ZZ/p[vars{0..A}];
 S' := ZZ[ gens S ];
+use S;
 ff:=c^2+a^3+b^5; --Given equation
    　　
 delta1 := (f) -> (
