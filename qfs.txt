@@ -7,7 +7,7 @@ S := ZZ/p[vars{0..A}];
 S' := ZZ[ gens S ];
 use S;
 ff:=c^2+a^3+b^5; --Given equation
-   　　
+
 delta1 := (f) -> (
 liftf:= sub(f, S');
 liftfp:= sub(f^p, S');
